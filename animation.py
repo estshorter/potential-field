@@ -119,8 +119,9 @@ class Animation_robot:
         )
 
         save_to_video = False
+        # save_to_video = True
         if save_to_video:
-            anim.save("dwa.gif", writer="imagemagick")
+            anim.save("potential-field.gif", writer="imagemagick")
         else:
             plt.show()
 
